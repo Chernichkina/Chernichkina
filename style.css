@@ -1,0 +1,23 @@
+body {
+    /* This will remove the default indents that cause the page scroll bar to appear */
+    margin: 0;
+    padding: 0;
+  }
+  
+@media only screen and (max-width: 768px){
+    #clickableImage{
+        width: 75% !important;
+    }
+}
+
+.rika-container{
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#clickableImage{
+    cursor: pointer;
+    width: 25%;
+}
